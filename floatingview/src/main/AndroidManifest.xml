@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.feiyu.floatingview" >
+
+
+
+    <application >
+
+        <provider
+            android:authorities="com.feiyu.floatingview.AppLifeCycleProvider"
+            android:name=".provider.AppLifeCycleProvider"
+            android:exported="false"/>
+    </application>
+</manifest>
